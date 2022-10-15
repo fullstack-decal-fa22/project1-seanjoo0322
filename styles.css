@@ -1,0 +1,53 @@
+
+.table {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    border-style: solid;    
+  }
+
+  * {
+    background-color: white;
+}
+
+
+#ha { 
+    background-color: rgb(63, 144, 63); 
+}
+
+.larger-font-type {
+    font-size: larger;
+    color: darkgray;
+}
+
+  .font-type {
+    width: 20%;
+    color: gray;
+    font: 30;
+}
+
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.Large {
+    text-align: left;
+    font: 70; 
+}
+
+.Large:hover {
+    font-family: monospace;
+    color: red;
+    font-size: 999%;
+}
